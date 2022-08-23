@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <C.Container>
-      <C.Title>Home</C.Title>
+      <C.Title>Sou apenas bom programador ok valeu</C.Title>
       <Button Text="Sair" onClick={() => [signout(), navigate("/")]}>
         Sair
       </Button>
