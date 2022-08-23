@@ -16,22 +16,23 @@ export const Content = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  box-shadow: 0 1px 2px #0003;
-  background-color: white;
+  background-color: #1C1C2C;
   max-width: 350px;
   padding: 20px;
   border-radius: 5px;
 `;
-
+export const Paragraph = styled.p `
+    color:white;
+`
 export const Label = styled.label`
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: 600;
-  color: #676767;
+  color: white;
 `;
 
 export const LabelSignin = styled.label`
   font-size: 16px;
-  color: #676767;
+  color: white;
 `;
 
 export const labelError = styled.label`
@@ -43,6 +44,6 @@ export const Strong = styled.strong`
   cursor: pointer;
   a {
     text-decoration: none;
-    color: #676767;
+    color: white;
   }
 `;
