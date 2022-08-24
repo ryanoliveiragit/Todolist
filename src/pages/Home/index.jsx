@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../../components/Button";
 import useAuth from "../../hooks/useAuth";
+import Header from "../../components/Header";
 import * as C from "./styles";
 
 const Home = () => {
@@ -10,8 +11,8 @@ const Home = () => {
 
   return (
     <C.Container>
-      <C.Title>Sou apenas bom programador ok valeu</C.Title>
-      <Button Text="Sair" onClick={() => [signout(), navigate("/")]}>
+    <Header />
+      <Button Style="smallButton" Text="Sair" onClick={() => [signout(), navigate("/")]}>
         Sair
       </Button>
     </C.Container>
